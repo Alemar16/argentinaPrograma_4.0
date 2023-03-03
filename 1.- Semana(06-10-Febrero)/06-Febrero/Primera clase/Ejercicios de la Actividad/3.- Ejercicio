@@ -1,0 +1,6 @@
+Algoritmo ComoEstaElDiaDeHoy
+	Definir clima como CADENA
+	Escribir   "¿Como está el día de hoy? (soleado, nublado, lloviendo)"
+	LEER clima
+	Escribir "El dia de hoy está " + clima
+FinAlgoritmo

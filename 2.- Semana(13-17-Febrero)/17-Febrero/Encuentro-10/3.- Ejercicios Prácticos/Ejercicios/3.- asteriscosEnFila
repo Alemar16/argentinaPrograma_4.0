@@ -1,0 +1,44 @@
+
+//Enunciado
+
+//Escriba un programa que lea un número entero (altura) y a partir de él cree una escalera
+//invertida de asteriscos con esa altura. Por ejemplo, si ingresamos una altura de 5 se
+//deberá mostrar:
+	//*****
+	//****
+	//***
+	//**
+	//*
+
+
+
+
+
+Proceso asteriscosEnFila
+	
+    Definir altura, espacio, asterisco Como Entero
+    Definir fila, espacioEnFila, asteriscoEnFila Como Entero 
+    
+    Escribir "Escriba un numero de altura"
+    Leer altura
+    
+   
+    asterisco<-altura
+    espacio<-0
+    
+    Para fila<-1 hasta altura con paso 1 //Se inicia un ciclo "Para", que se repetirá tantas veces como el valor de "altura", con un incremento de 1 en cada iteración.
+        
+        Para espacioEnFila<-0 hasta espacio con paso 1 //Se inicia un ciclo "Para" que se repetirá tantas veces como el valor de "espacio", con un incremento de 1 en cada iteración.
+            Escribir " " sin saltar//Se muestra un espacio en blanco sin cambiar de fila.
+        FinPara
+      
+        Para asteriscoEnFila<-1 hasta asterisco con paso 1 // Se inicia un ciclo "Para" que se repetirá tantas veces como el valor de "asterisco", con un incremento de 1 en cada iteración.
+            Escribir "*" sin saltar //Se muestra un asterisco sin cambiar de fila.
+        FinPara
+        
+        asterisco<-asterisco-1 //Se reduce en 1 el valor de la variable "asterisco".
+        espacio<-espacio+1 //Se incrementa en 1 el valor de la variable "espacio".
+        Escribir " " //Se muestra un espacio en blanco sin cambiar de fila.
+    FinPara
+FinProceso
+

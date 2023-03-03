@@ -1,0 +1,13 @@
+Algoritmo tres_digitos
+	Definir num Como Real
+	
+	Escribir "Ingrese un número:"
+    Leer num
+	
+    Si num >= 100 y num <= 999 Entonces
+        Escribir "El número ", num, " tiene tres dígitos"
+    Sino
+        Escribir "El número ", num, " no tiene tres dígitos"
+    Fin Si
+	
+FinAlgoritmo

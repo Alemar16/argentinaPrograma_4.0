@@ -1,0 +1,11 @@
+Algoritmo ActividadFavorita
+	Definir nombre Como Caracter
+	Definir actividad Como Caracter
+	
+	Escribir "¿Cual es tu Nombre?"
+	Leer nombre
+	Escribir "¿Cual es tu actividad Favorita?"
+	leer actividad
+
+	Escribir "Su Nombre es ", nombre " y su actividad Favorita es ", actividad
+FinAlgoritmo

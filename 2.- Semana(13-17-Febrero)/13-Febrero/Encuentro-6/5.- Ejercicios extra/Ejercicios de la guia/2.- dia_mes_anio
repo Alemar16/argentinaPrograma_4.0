@@ -1,0 +1,87 @@
+Algoritmo dia_mes_anio
+	
+	Definir dia, mes, anio como enteros
+	Definir mesNombre como cadena
+	
+	Escribir "Escribe el Día (en Número)"
+	Leer dia
+	
+	Escribir "Escribe el Mes (en Número)"
+	Leer mes
+	
+	Escribir "Escribe el Año (en Número)"
+	Leer anio
+	
+	Segun  mes Hacer
+		
+	
+Caso 1:
+	mesNombre = "enero"
+Caso 2:
+	mesNombre = "febrero"
+Caso 3:
+	mesNombre = "marzo"
+Caso 4:
+	mesNombre = "abril"
+Caso 5:
+	mesNombre = "mayo"
+Caso 6:
+	mesNombre = "junio"
+Caso 7:
+	mesNombre = "julio"
+Caso 8:
+	mesNombre = "agosto"
+Caso 9:
+	mesNombre = "septiembre"
+Caso 10:
+	mesNombre = "octubre"
+Caso 11:
+	mesNombre = "noviembre"
+Caso 12:
+	mesNombre = "diciembre"
+De Otro Modo:
+	Escribir "Error: el mes debe estar entre 1 y 12"
+	
+Fin Segun
+
+Si dia < 1 O dia > 31 Entonces
+    Escribir "Error: el día debe estar entre 1 y 31"
+	
+Sino
+    Si mes = 4 O mes = 6 O mes = 9 O mes = 11 Entonces
+        Si dia > 30 Entonces
+            Escribir "Error: el mes ", mes, " solo tiene 30 días"
+        Sino
+            Escribir dia, " de ", mesNombre, " de ", anio
+		Fin Si
+		
+		
+    Sino
+        Si mes = 2 Entonces
+            Si dia > 29 Entonces
+                Escribir "Error: febrero no tiene más de 29 días"
+            Sino
+                Si dia = 29 Y anio MOD 4 <> 0 Entonces
+                    Escribir "Error: el año ", anio, " no es bisiesto, febrero no puede tener 29 días"
+                Sino
+                    Escribir dia, " de ", mesNombre, " de ", anio
+                Fin Si
+            Fin Si
+			
+			
+			
+        Sino
+            Escribir dia, " de ", mesNombre, " de ", anio
+        Fin Si
+		
+		
+		
+    Fin Si
+Fin Si
+
+	//Escribir dia, " de ", mesNombre, " de ", anio
+
+
+
+
+FinAlgoritmo

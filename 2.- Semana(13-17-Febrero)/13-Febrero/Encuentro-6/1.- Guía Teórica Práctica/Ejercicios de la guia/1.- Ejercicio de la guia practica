@@ -1,0 +1,35 @@
+Algoritmo sin_titulo
+	Definir num Como Caracter
+	Escribir "Ingrese número del mes"
+
+	leer num
+	
+	Segun num Hacer
+			"1":
+				Escribir "Corresponde al mes de Enero"
+			"2":
+				Escribir "Corresponde al mes de Febrero"
+			"3":
+				Escribir "Corresponde al mes de Febrero"
+			"4":
+				Escribir "Corresponde al mes de Febrero"
+			"5":
+				Escribir "Corresponde al mes de Febrero"
+			"6":
+				Escribir "Corresponde al mes de Febrero"
+			"7":
+				Escribir "Corresponde al mes de Febrero"
+			"8":
+				Escribir "Corresponde al mes de Febrero"
+			"9":
+				Escribir "Corresponde al mes de Febrero"
+			"10":
+				Escribir "Corresponde al mes de Febrero"
+			"11":
+				Escribir "Corresponde al mes de Febrero"
+			"12":
+				Escribir "Corresponde al mes de Febrero"
+			De Otro Modo:
+				Escribir "Error"
+	FinSegun
+FinAlgoritmo

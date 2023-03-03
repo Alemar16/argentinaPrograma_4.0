@@ -1,0 +1,33 @@
+
+//Enunciado
+//Escribir un programa que calcule la suma de los N primeros números naturales. 
+//El valor de N se leerá por teclado.
+
+
+Algoritmo sumaNumNat
+	
+	Definir N, suma, i como Entero
+	
+	Escribir "Ingrese un número entero positivo: "
+	Leer N
+	
+	suma <- 0
+	
+	Para i = 1 Hasta N Con Paso 1 Hacer
+		suma <- suma + i
+	FinPara
+	
+	Escribir "La suma de los primeros ", N, " números naturales es: ", suma
+	
+FinAlgoritmo
+
+//Resumen
+//Este algoritmo pedirá ingresar un número entero positivo N 
+//y luego calculará la suma de los primeros N números naturales.
+
+//Por ejemplo, si se ingresa 5, el programa calculará la suma 1 + 2 + 3 + 4 + 5 = 15 
+//y mostrará el mensaje "La suma de los primeros 5 números naturales es: 15".
+
+
+
+

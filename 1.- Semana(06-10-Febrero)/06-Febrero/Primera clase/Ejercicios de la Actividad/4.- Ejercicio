@@ -1,0 +1,16 @@
+Algoritmo calculoDeNumeros
+	Definir num1 Como Entero
+	Definir num2 Como Entero
+	Escribir "Escriba el Primer número"
+	Leer num1 
+	Escribir "Escriba el segundo número"
+	Leer num2
+	
+	Escribir "Total de la Suma " num1 + num2
+	Escribir "Total de la Resta " num1 - num2
+	Escribir "Total de la Multiplicación " num1 * num2
+	Escribir "Total de la Divición " num1 / num2
+	
+
+	
+FinAlgoritmo

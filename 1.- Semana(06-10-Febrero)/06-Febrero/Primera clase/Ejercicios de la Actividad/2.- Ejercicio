@@ -1,0 +1,7 @@
+Algoritmo quienMasColaboro
+	Definir nombre Como Caracter
+	Escribir "Cual es el nombre del compañero o compañera que más se destacó en el grupo?"
+	Leer nombre
+	Escribir nombre," es quien más colaboró en mi equipo, propiciando la cooperación y el fluir del conocimiento.por estas razones, es que vamos a RECONOCERLO dandole un PULSO"
+	
+FinAlgoritmo

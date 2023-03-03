@@ -1,0 +1,22 @@
+Algoritmo AnioBisiesto
+	
+	Definir anio Como entero
+	
+	Escribir "Ingrese un año:"
+		Leer anio
+		
+		Si anio MOD 4 = 0 Y anio MOD 100 <> 0 O anio MOD 400 = 0 Entonces
+			Escribir "El año ", anio, " es bisiesto"
+		Sino
+			Escribir "El año ", anio, " no es bisiesto"
+		Fin Si
+		
+
+
+FinAlgoritmo
+
+
+//En este caso, se utiliza anio MOD 4 para determinar si el año es divisible por 4, 
+//y anio MOD 100 y anio MOD 400 
+//para determinar si el año es divisible por 100 y 400, respectivamente.
+			

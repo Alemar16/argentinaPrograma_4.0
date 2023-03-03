@@ -1,0 +1,52 @@
+//.................Ejercicio 4
+
+//Enunciado:
+
+//La función factorial se aplica a números enteros positivos. 
+//El factorial de un número entero positivo (!n) es igual al producto de los enteros positivos desde 1 hasta n:
+//n! = 1 * 2 * 3 * 4 * 5 * (n-1) * n
+
+//Escriba un programa que calcule las factoriales de todos los números enteros desde el 1 hasta el 5. 
+//El programa deberá mostrar la siguiente salida:
+	//!1 = 1
+	//!2 = 1*2 = 2
+	//...
+	//!5 = 1*2*3*4*5 = 120
+
+
+Algoritmo numero_factorial
+	
+		Definir i, n, f Como Entero
+		Definir factorial Como caracter //se utilizará para almacenar el resultado del cálculo del factorial en forma de texto.
+		
+		Para n = 1 Hasta 5 Con Paso 1 Hacer//inicia un bucle que se ejecutará cinco veces, una vez para cada número del 1 al 5. La variable n toma el valor del número actual para el que se está calculando el factorial.
+			f <- 1 //valor inicial de f en 1.
+			Para i = 1 Hasta n Con Paso 1 Hacer//inicia otro bucle en este caso interno, que se ejecutará desde 1 hasta el valor actual de n. La variable i se utiliza como contador en este bucle.
+				f <- f * i // En cada vuelta del bucle interno, se multiplica el valor actual de f por i y se almacena el resultado en f.
+			FinPara
+			
+			factorial <- "!"+ConvertirATexto(n)+" = 1"
+			Para i = 2 Hasta n Con Paso 1 Hacer
+				factorial <- factorial + "*" + ConvertirATexto(i)
+			FinPara
+			factorial <- factorial + " = " + ConvertirATexto(f)
+			Escribir factorial
+		FinPara
+		
+FinAlgoritmo
+
+//Resumen
+//El cálculo se realiza en la línea 22 del programa, 
+//donde se utiliza un bucle Para para iterar a través de los números enteros de 1 a 5. 
+//Dentro de este bucle, se inicializa una variable f en 1 y 
+//se utiliza otro "bucle Para", para calcular el factorial del número actual n, 
+//multiplicando f por cada número entero desde 1 hasta n. 
+//El resultado del cálculo del factorial se almacenará en la variable f.
+				
+//Luego, en las líneas 28-32, se crea una cadena de caracteres que representa la fórmula del factorial 
+//y el resultado del cálculo, 
+//utilizando el operador + para concatenar las cadenas de texto 
+//y la función ConvertirATexto para convertir los números enteros en cadenas de caracteres. 
+//Finalmente, se escribe la cadena de caracteres resultante en la consola.
+
+//para observar su ejecucion y funcionamiento se recomienda usar la orden de ejecuion "paso a paso"

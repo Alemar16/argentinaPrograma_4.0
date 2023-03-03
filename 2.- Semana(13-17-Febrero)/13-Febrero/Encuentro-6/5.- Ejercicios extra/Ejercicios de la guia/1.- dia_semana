@@ -1,0 +1,26 @@
+Algoritmo dia_semana
+	Definir numDia Como Entero
+	
+	Escribir "Escribe un Numero del 1 al 7"
+	Leer numDia
+	
+	Segun numDia Hacer
+		1:
+			Escribir "Corresponde al día Lunes"
+		2:
+			Escribir "Corresponde al día Martes"
+		3:
+			Escribir "Corresponde al día Miercoles"
+		4:
+			Escribir "Corresponde al día Jueves"
+		5:
+			Escribir "Corresponde al día Viernes"
+		6:
+			Escribir "Corresponde al día Sábado"
+		7:
+			Escribir "Corresponde al día Domingo"
+		De Otro Modo:
+			Escribir "Numero no corresponde a nungún día"
+	FinSegun
+	
+FinAlgoritmo

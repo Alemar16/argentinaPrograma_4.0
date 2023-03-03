@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	definir nroMes como entero
+	escribir "ingrese una opcion para un mes determido (DEL 1 AL 12)"
+	leer nroMes
+	segun nroMes hacer
+		1: 
+			escribir "ENERO"
+		2:
+			escribir "FEBRERO"
+		3: 
+			escribir "MARZO"
+		4:
+			escribir "ABRIL"
+		5:
+			escribir "MAYO"
+		6:
+			escribir "JUNIO"
+		7: 
+			escribir "JULIO"
+		8:
+			escribir "AGOSTO"
+		9: 
+			escribir "SEPTIEMBRE"
+		10:
+			escribir "OCTUBRE"
+		11:
+			escribir "NOVIEMBRE"
+		12:
+			escribir "DICIEMBRE"
+			
+		De Otro Modo:
+			ESCRIBIR "mensaje de error"
+	FinSegun
+FinAlgoritmo

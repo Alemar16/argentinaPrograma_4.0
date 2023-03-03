@@ -1,0 +1,28 @@
+Algoritmo compra_de_llantas
+	
+	Definir llantas Como Entero
+	Definir oferta1 Como Entero
+	Definir oferta2 Como Entero
+	Definir oferta3 Como Entero
+	
+	oferta1 = 3000
+	oferta2 = 2500
+	oferta3 = 2000
+	
+	Escribir "Escriba cantidad en Llantas"
+	leer llantas
+	
+	Si (llantas >= 10 ) Entonces
+		Escribir " El precio por llanta es ", oferta3, " y el precio total es " llantas *2000
+		
+	SiNo
+		si (llantas >= 5 ) y (llantas <= 9) Entonces
+			Escribir " El precio por llanta es ", oferta2, " y el precio total es " llantas *2500
+			
+		SiNo
+			Escribir " el precio por llanta es ", oferta1, " y el precio total es " llantas *3000
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo

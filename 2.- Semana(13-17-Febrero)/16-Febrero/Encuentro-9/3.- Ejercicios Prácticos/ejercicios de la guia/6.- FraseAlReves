@@ -1,0 +1,24 @@
+
+//Enunciado
+
+//Siguiendo el ejercicio 20 de los ejercicios principales, 
+//ahora deberemos hacer lo mismo
+//pero que la cadena se muestre al revés. 
+//Por ejemplo, si tenemos la cadena: Hola, deberemos mostrar a l o H.
+
+Algoritmo FraseAlReves
+	Definir frase Como Caracter
+	Definir i Como Entero
+	
+	Escribir "Ingrese una frase: "
+	Leer frase
+	
+	Para i = Longitud(frase) - 1 Hasta 0 Con Paso -1 Hacer
+		escribir Sin Saltar SubCadena(frase, i, i), " "
+	FinPara
+	
+FinAlgoritmo
+
+//resumen
+//Este seudocódigo imprimirá la frase al revés, con un espacio entre cada letra. 
+//Por ejemplo, si la entrada es "hola", la salida será "a l o h".

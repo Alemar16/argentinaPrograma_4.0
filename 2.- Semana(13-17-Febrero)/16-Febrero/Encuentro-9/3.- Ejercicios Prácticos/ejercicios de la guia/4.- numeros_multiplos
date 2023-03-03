@@ -1,0 +1,29 @@
+
+//enunciado
+//Realizar un programa que muestre la cantidad de números que son múltiplos de 2 o de 3
+//comprendidos entre 1 y 100.
+
+Algoritmo numeros_multiplos
+	
+	
+		Definir contador, i Como Entero
+		
+		contador = 0
+		Para i = 1 Hasta 100 Con Paso 1 Hacer
+			Si (i % 2 = 0) o (i % 3 = 0) Entonces
+				contador = contador + 1
+			FinSi
+			//Mostrar contador //esta linea sirve para verificar cada numero almacenado en la variable contador
+		FinPara
+		
+		Escribir "La cantidad de numeros que son multiplos de 2 o 3 entre 1 y 100 es: ", contador
+FinAlgoritmo
+
+//resumen:
+//El algoritmo utiliza un contador para ir acumulando la cantidad de números
+//que cumplen la condición de ser múltiplos de 2 o de 3. 
+//En cada iteración del ciclo, se verifica si el número actual 
+//es divisible por 2 o por 3 utilizando el operador % (módulo) 
+//y se incrementa el contador si se cumple la condición. 
+//Al finalizar el ciclo, se muestra por pantalla el valor del contador.
+

@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	Definir a, b Como Entero
+	Escribir "Ingrese la cantidad de tornillos defectuosos fabricados: "
+	Leer a
+	Escribir "Ingrese la cantidad de tornillos sin  defectos fabricados: "
+	Leer b
+	
+	Si a<200 y b>10000
+		Escribir "El operario tiene grado 8 de eficiencia"
+	SiNo
+		Si a>=200 y b<=10000
+			Escribir "El operario tiene grado 5 de eficiencia"
+		SiNo
+			Si a<200 y b<=10000
+				Escribir "El operario tiene grado 6 de eficiencia"
+			SiNo
+				Escribir "El operario tiene grado 7 de eficiencia"
+			FinSi
+		FinSi
+	FinSi
+	
+FinAlgoritmo

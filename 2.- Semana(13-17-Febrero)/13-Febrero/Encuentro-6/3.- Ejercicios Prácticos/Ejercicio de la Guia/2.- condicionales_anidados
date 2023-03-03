@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	
+		Definir num como entero
+		
+		Leer num
+		
+		Si num == 0 Entonces
+			Escribir "El número no es par ni impar."
+		Sino
+			//Si MOD num % 2 == 0 Entonces
+			Si 0 = num MOD 2 Entonces
+					
+				Escribir "El número es par."
+			Sino
+				Escribir "El número es impar."
+			FinSi
+		FinSi
+
+
+FinAlgoritmo

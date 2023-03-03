@@ -1,0 +1,34 @@
+Algoritmo cafe_te
+	Definir cafe como Caracter
+	definir solo Como Caracter
+	Definir cortado Como Caracter
+	Definir leche_vegetal como Caracter
+	Definir bebida como Caracter
+	
+	Escribir "¿Quieres té o Café?"
+	Leer bebida
+	Si bebida == "té" Entonces
+		Escribir "Tomarás té"
+	Sino
+		Si bebida == "café" Entonces
+			Escribir "¿solo o cortado?"
+			leer cafe
+			Si cafe == "solo" Entonces
+				Escribir "Tomarás café solo"
+			Sino
+				Si cafe == "cortado" Entonces
+					Escribir "con Leche Vegetal"
+					Leer leche_vegetal
+					
+					Si leche_vegetal == "sí" Entonces
+						Escribir "Tomarás café cortado con leche vegetal"
+					Sino
+						Escribir "Tomarás café cortado con leche normal"
+					Finsi
+				Finsi
+			Finsi
+		FinSi
+			
+	FinSi
+
+FinAlgoritmo
